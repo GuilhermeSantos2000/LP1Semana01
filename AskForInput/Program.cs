@@ -13,6 +13,9 @@ namespace AskForInput
             Console.WriteLine("Please write a Real Number.");            
             string str2 = Console.ReadLine();
             float a2 = float.Parse(str2);
+
+            float sum = a + a2;
+            Console.WriteLine($"The sum of {a} and {a2} is {sum}");
         }
     }
 }
