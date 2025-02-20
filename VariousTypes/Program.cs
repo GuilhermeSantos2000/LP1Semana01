@@ -20,6 +20,9 @@ namespace VariousTypes
             float d = 5.768f;
             double e = 4.3414;
             decimal f = 3.1415m;
+            
+            bool skyisblue = true;
+            bool skyisorange = false;
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -32,6 +35,9 @@ namespace VariousTypes
             Console.WriteLine(d);
             Console.WriteLine(e);
             Console.WriteLine(f);
+            
+            Console.WriteLine(skyisblue);
+            Console.WriteLine(skyisorange);
         }
     }
 }
