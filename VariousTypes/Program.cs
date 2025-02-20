@@ -17,6 +17,10 @@ namespace VariousTypes
             char omega = '\u03A9';
             char heart = '\u2665';
 
+            float d = 5.768f;
+            double e = 4.3414;
+            decimal f = 3.1415m;
+
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -24,6 +28,10 @@ namespace VariousTypes
             Console.WriteLine(smiley);
             Console.WriteLine(omega);
             Console.WriteLine(heart);
+
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
         }
     }
 }
